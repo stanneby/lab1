@@ -1,6 +1,6 @@
 package bsu.rfe.java.group9.lab1.Nebyshinets.varC;
 
-public abstract class Food implements Consumable{
+public abstract class Food implements Consumable, Nutritious{
     String name = null;
 
     public Food(String name){
